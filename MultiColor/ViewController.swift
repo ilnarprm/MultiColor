@@ -61,4 +61,7 @@ final class ViewController: UIViewController {
         blueValueLabel.text = string(from: blueSlider)
         setColor()
     }
+    @IBAction func DoneButtonAction() {
+        dismiss(animated: true)
+    }
 }
